@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+
+body  {
+  cursor: not-allowed;
+  background-image: url("../img/blob1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+img {
+  border-radius: 200%;
+}
+
+.card {
+  cursor: wait;
+  width: 500px;
+  height: 600px;
+  
+  position: relative;
+  margin: auto;
+  
+  background-image: url("../img/blob2.jpg");
+  background-size: cover;
+
+  }
+
+.overlay {
+  font-family: "Comic Sans MS", cursive, sans-serif;
+
+  width: 100%;
+  height: 100%;
+
+  opacity: 0;
+  background: rgba(27, 87, 07, .3);
+  transition: all 5s;
+
+}
+
+
+.text {
+
+  font-size: 12px;
+  padding-left: 20px;
+  letter-spacing: 1px;
+
+}
+
+.stack {
+
+  font-size: 30px;
+  text-align: right;
+  padding-right: 11px;
+  padding-top: 10px;
+  text-anchor: right;
+  letter-spacing: -10px;
+
+  white-space: nowrap;
+  overflow: scroll;
+  width: 30em;
+  animation: frogs 31s steps(800, end); 
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+
+}
+
+.stack2 {
+  font-size: 8px;
+  text-align: right;
+  padding-right: 20px;
+  padding-top: 10px;
+  text-anchor: right;
+  letter-spacing: -6px;
+
+  white-space: nowrap;
+  overflow: visible;
+  width: 60em;
+  animation: frogs2 23s steps(800, end); 
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+}
+
+.stack3 {
+  font-size: 30px;
+  text-align: right;
+  padding-right: 0px;
+  padding-top: 10px;
+  text-anchor: left;
+  letter-spacing: -9px;
+
+  white-space: nowrap;
+  overflow: hidden;
+  width: 16em;
+  animation: frogs3 8s steps(600, end); 
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+}
+
+@keyframes frogs{ 
+    from {margin-left: -1300px;}
+    to {margin-left: 1300px;}
+}
+
+@keyframes frogs2{ 
+    from {margin-left: 1100px;}
+    to {margin-left: -1700px;}
+} 
+
+@keyframes frogs3{ 
+  from { width: 0; }
+ 
+} 
+
+.img1 {
+  margin-left: -90px;
+}
+
+.img2{
+  margin-left: 400px;
+}
+
+.head {
+  font-size: 30px;
+  line-height: 10px;
+  text-align: center;
+  transform: translateY(15px);
+}
+
+.card:hover .overlay {
+  opacity: 1;
+}
+
+</style>
+</head>
+<body>
+
+<div class="card">
+  <div class="overlay">
+    <div class = "text head">
+      <p>Felix "From Online" Ruttan</p>
+    </div>
+      <div class = "stack">🐸</div>
+    <div class = "text">
+      <p> Wow he a good forg!</p>
+      <p> if you liek him pls send tweet xoxox       <a href="../index.html">go2 hoe page, heh</a></p>
+    </div>
+    <div class = "stack2">🐸🐸🐸🐸🐸🐸🐸🐸🐸🐸🐸🐸🐸🐸🐸🐸🐸🐸🐸🐸🐸🐸🐸🐸🐸🐸🐸🐸🐸🐸🐸🐸🐸🐸🐸🐸🐸🐸🐸🐸🐸🐸🐸🐸🐸🐸🐸🐸🐸🐸🐸🐸🐸🐸🐸🐸🐸🐸🐸🐸🐸🐸🐸🐸🐸🐸🐸🐸🐸🐸🐸🐸🐸🐸🐸🐸🐸🐸🐸🐸🐸🐸🐸🐸🐸🐸🐸🐸🐸🐸🐸🐸🐸🐸🐸🐸🐸🐸🐸🐸🐸🐸🐸🐸🐸🐸🐸🐸🐸🐸🐸🐸🐸🐸🐸🐸🐸🐸🐸🐸🐸🐸🐸🐸🐸🐸🐸🐸🐸🐸🐸🐸🐸🐸🐸🐸🐸🐸🐸🐸🐸🐸🐸🐸🐸🐸🐸🐸🐸🐸🐸🐸🐸🐸🐸🐸🐸🐸🐸🐸🐸🐸🐸🐸🐸🐸🐸🐸🐸🐸🐸🐸🐸🐸🐸🐸🐸🐸🐸🐸🐸🐸🐸🐸🐸🐸🐸🐸🐸🐸🐸🐸🐸🐸🐸🐸🐸🐸🐸🐸🐸🐸🐸🐸🐸🐸🐸🐸🐸🐸🐸</div>
+    <div class = "img1">
+     <a href="https://twitter.com/WebsiteBod" target="_blank" alt="check out my twipper, i do bit"><img = src="..\img\twitter.jpg" width="180" height="188"></a>
+    </div>
+    <div class = "img2">
+     <a href="https://vimeo.com/imaginaryanimal" target="_blank" alt="check out my vimeo, i made video"><img = src="..\img\vimeo.jpg" width="153" height="150"></a>
+    </div>
+    <div class = "stack3"> 🐸🐸🐸🐸🐸🐸🐸🐸🐸🐸🐸🐸🐸🐸🐸🐸🐸🐸🐸🐸🐸🐸🐸🐸🐸🐸🐸🐸🐸🐸🐸🐸🐸🐸🐸🐸🐸🐸🐸🐸🐸🐸🐸🐸🐸🐸🐸🐸🐸🐸🐸🐸🐸🐸🐸🐸🐸🐸🐸🐸🐸🐸🐸🐸🐸🐸🐸🐸🐸🐸🐸🐸🐸🐸🐸🐸🐸🐸🐸🐸🐸🐸🐸🐸🐸🐸🐸🐸🐸🐸🐸🐸🐸🐸🐸🐸🐸🐸🐸🐸🐸🐸</div>
+  <audio control autoplay loop>
+    <source src="../img/cardSound.mp3" type="audio/mpeg">
+    <p>omg on the sound pls, thank :)</p>
+  </audio>
+</div>
+</div>
+
+</body>
+</html>
